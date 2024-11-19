@@ -72,7 +72,7 @@ def login():
             return jsonify({"success": "로그인 성공", "user_id": user.id}), 200
         
         print(error)
-    return #??
+    return 
 
 #로그인된 사용자 불러오기
 @bp.before_app_request      
