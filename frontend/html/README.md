@@ -1,0 +1,1 @@
+최하위 taskcard 지웠는데 왜 merge가 안 된거지...merge잘 되는지 확인차 수정
