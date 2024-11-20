@@ -1,0 +1,211 @@
+/* Main Page */
+body {
+    position: relative;
+    width: 1600px;
+    height: 900px;
+    margin: 0;
+    background: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* category1 */
+.category-box:nth-of-type(1) {
+    position: absolute;
+    width: 455.12px;
+    height: 660px;
+    left: 45px;
+    top: 166px;
+}
+
+.category-box:nth-of-type(1) .category-background {
+    width: 453px;
+    height: 660px;
+    background: rgba(217, 217, 217, 0.3);
+    opacity: 0.8;
+    border-radius: 19px;
+}
+
+.category-box:nth-of-type(1) .new-card {
+    position: absolute;
+    width: 408px;
+    height: 119px;
+    left: 71px;
+    top: 695px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 13px;
+}
+
+.category-box:nth-of-type(1) .add-icon {
+    position: absolute;
+    width: 73px;
+    height: 70px;
+    left: 258px;
+    top: 713px;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* category2 */
+.category-box:nth-of-type(2) {
+    position: absolute;
+    width: 455.12px;
+    height: 660px;
+    left: 565px;
+    top: 166px;
+}
+
+.category-box:nth-of-type(2) .category-background {
+    width: 453px;
+    height: 660px;
+    background: rgba(217, 217, 217, 0.3);
+    opacity: 0.8;
+    border-radius: 19px;
+}
+
+.category-box:nth-of-type(2) .new-card {
+    position: absolute;
+    width: 408px;
+    height: 119px;
+    left: 591px;
+    top: 695px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 13px;
+}
+
+.category-box:nth-of-type(2) .add-icon {
+    position: absolute;
+    width: 73px;
+    height: 70px;
+    left: 778px;
+    top: 713px;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* category3 */
+.category-box:nth-of-type(3) {
+    position: absolute;
+    width: 455.12px;
+    height: 660px;
+    left: 1087px;
+    top: 166px;
+}
+
+.category-box:nth-of-type(3) .category-background {
+    width: 453px;
+    height: 660px;
+    background: rgba(217, 217, 217, 0.3);
+    opacity: 0.8;
+    border-radius: 19px;
+}
+
+.category-box:nth-of-type(3) .new-card {
+    position: absolute;
+    width: 408px;
+    height: 119px;
+    left: 1113px;
+    top: 695px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 13px;
+}
+
+.category-box:nth-of-type(3) .add-icon {
+    position: absolute;
+    width: 73px;
+    height: 70px;
+    left: 1300px;
+    top: 713px;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Common Styles for Cards */
+.card {
+    position: absolute;
+    width: 408px;
+    height: 119px;
+    background: #D9D9D9;
+    border-radius: 13px;
+}
+
+.delete-icon {
+    position: absolute;
+    width: 73px;
+    height: 70px;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(0, 0, 0, 0.5);
+    transform: rotate(-45deg);
+}
+
+.edit-icon {
+    position: absolute;
+    box-sizing: border-box;
+    width: 27px;
+    height: 27px;
+    /*background: url(free-icon-edit-button-84380.png);*/
+    opacity: 0.6;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-title {
+    position: absolute;
+    width: 329px;
+    height: 38px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.card-divider {
+    position: absolute;
+    width: 315px;
+    border: 1px solid #000000;
+}
+
+.card-schedule {
+    position: absolute;
+    width: 122px;
+    height: 63px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.card-memo {
+    position: absolute;
+    width: 154px;
+    height: 66px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/* Category Titles */
+.category-title {
+    position: absolute;
+    width: 201px;
+    height: 55px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+/* Dividers */
+.category-divider {
+    position: absolute;
+    width: 370px;
+    border: 1px solid #000000;
+}

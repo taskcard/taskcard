@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Category 1 -->
+        <div class="category-box">
+            <h2 class="category-title">category1</h2>
+            <div class="card">
+                <div class="delete-icon">×</div>
+                <div class="card-content">
+                    <div class="edit-icon"></div>
+                        <img src="edit_icon.png" alt="edit-icon" style="width: 100%; flex-shrink: 0;">
+                    <input type="text" class="card-title" value="Title">
+                    <hr class="card-divider">
+                    <div class="card-schedule">2024.11.18 18:00~20:00</div>
+                    <div class="card-memo">Content memo memo</div>
+                </div>
+            </div>
+            <!-- 추가 카드들 -->
+            <div class="card add-card">
+                <div class="add-icon">+</div>
+            </div>
+        </div>
+        
+        <!-- Category 2 -->
+        <div class="category-box">
+            <h2 class="category-title">category2</h2>
+            <div class="card">
+                <div class="delete-icon">×</div>
+                <div class="card-content">
+                    <div class="edit-icon"></div>
+                    <input type="text" class="card-title" value="Title">
+                    <hr class="card-divider">
+                    <div class="card-schedule">2024.11.18 18:00~20:00</div>
+                    <div class="card-memo">Content memo memo</div>
+                </div>
+            </div>
+            <!-- 추가 카드들 -->
+            <div class="card add-card">
+                <div class="add-icon">+</div>
+            </div>
+        </div>
+        
+        <!-- Category 3 -->
+        <div class="category-box">
+            <h2 class="category-title">category3</h2>
+            <div class="card">
+                <div class="delete-icon">×</div>
+                <div class="card-content">
+                    <div class="edit-icon"></div>
+                    <input type="text" class="card-title" value="Title">
+                    <hr class="card-divider">
+                    <div class="card-schedule">2024.11.18 18:00~20:00</div>
+                    <div class="card-memo">Content memo memo</div>
+                </div>
+            </div>
+            <!-- 추가 카드들 -->
+            <div class="card add-card">
+                <div class="add-icon">+</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript 파일 연결 -->
+    <script src="create_card.js"></script>
+    <script src="modify_card.js"></script>
+    <script src="delete_card.js"></script>
+</body>
+</html>
