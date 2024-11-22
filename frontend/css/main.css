@@ -36,10 +36,10 @@ body {
 }
 
 .category-background {
-    width:453px
+    width:453px;
     height: 100px;
     background: rgba(217, 217, 217, 0.3);
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 19px;
     position: absolute;
     top: 0;
@@ -53,7 +53,12 @@ body {
     line-height: 36px;
     color: #000000;
     margin: 10px 0;
-    
+    border: none;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(217, 217, 217, 0.3);
+    opacity: 0.8;
 }
 
 .card {
@@ -111,6 +116,8 @@ body {
     position: absolute;
     top: 80px;
     right: 10px;
+    border: none;
+    box-shadow: none;
 }
 
 .card-title {
