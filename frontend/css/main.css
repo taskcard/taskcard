@@ -53,6 +53,7 @@ body {
     line-height: 36px;
     color: #000000;
     margin: 10px 0;
+    
 }
 
 .card {
@@ -76,7 +77,7 @@ body {
     flex-shrink: 0;
     border-radius: 13px;
     position: relative;
-    top : 280px;
+    top : 250px;
     right : 0px;
 
 }
@@ -91,6 +92,16 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.delete-icon {
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transform: rotate(-45deg);
+}
+
 .edit-icon {
     width: 35px;
     height: 35px;
@@ -100,16 +111,6 @@ body {
     position: absolute;
     top: 80px;
     right: 10px;
-}
-
-.delete-icon {
-    font-size: 60px;
-    line-height: 73px;
-    color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    transform: rotate(-45deg);
 }
 
 .card-title {
@@ -123,6 +124,7 @@ body {
     background: transparent;
     position: relative;
     z-index: 1;
+    background-color: rgba(217, 217, 217, 0.5);
 }
 
 .card-divider {
