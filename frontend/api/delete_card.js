@@ -1,7 +1,7 @@
 document.getElementById("delete-card-button").addEventListener("click", function() {
     const cardId = document.getElementById("card-id").value;
 
-    fetch(`/card/delete/${cardId}`, {
+    fetch(`http://127.0.0.1:5000/card/delete/${cardId}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json"

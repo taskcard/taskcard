@@ -6,7 +6,7 @@ document.getElementById("modify-card-form").addEventListener("submit", function(
     const content = document.getElementById("card-content").value;
     const category = document.getElementById("card-category").value;
 
-    fetch(`/card/modify/${cardId}`, {
+    fetch(`http://127.0.0.1:5000/card/modify/${cardId}`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
